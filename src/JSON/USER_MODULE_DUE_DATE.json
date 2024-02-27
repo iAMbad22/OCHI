@@ -1,0 +1,63 @@
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "CODP.USER_MODULE_DUE_DATE",
+    "expectations": [
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "TENANT_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "COMPANY_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "MODULE_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "USER_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "VERSION_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "DUE_DATE_ENABLED"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "DUE_DATE_LOGIC"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "EVENT_TS"
+        },
+        "meta": {}
+      }
+    ]
+  }
+  

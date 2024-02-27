@@ -1,0 +1,41 @@
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "CODP.",
+    "expectations": [
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "TENANT_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "COMPANY_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "USER_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "PROFILE_ID"
+        },
+        "meta": {}
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "USER_PROFILE_UPDATED_ON"
+        },
+        "meta": {}
+      }
+    ]
+  }

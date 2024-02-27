@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes move4 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-102.8%);
+    }
+}
+
+.animate-move4 {
+    animation: move4 8s linear infinite;
+}
+
+@keyframes move5 {
+    0% {
+        transform: translate(0,0%);
+    }
+    100% {
+        transform: translate(0,-100%);
+    }
+}
+
+.animate-move5 {
+    animation: move5 1s;
+}
