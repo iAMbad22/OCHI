@@ -6,7 +6,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 function Columns() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='bg-zinc-800 py-12'>
+    <div data-scroll data-scroll-section data-scroll-speed='.1' className='bg-[#F1F1F1] py-12 text-black'>
         <div className='border-t-[1px] border-zinc-600'>
             <div>
                 {["Planetly","Workiz Easy","Premium Blend","Hypercare Systems","Officevibe","Orderlion","Black Book","Trawa Energy"].map((item,index)=> (
