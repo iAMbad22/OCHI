@@ -5,6 +5,7 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Eyes from './components/Eyes'
 import Cards from './components/Cards'
+import Columns from './components/Columns'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Eyes />
         <Cards />
+        <Columns />
       </div> 
     </>
   )

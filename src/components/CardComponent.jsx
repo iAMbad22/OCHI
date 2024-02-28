@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import {motion} from 'framer-motion'
 function CardComponent({data}) {
     const [first,setFirst] = useState("FYDE");
     const [hovered,setHovered] = useState(false);
@@ -17,7 +17,7 @@ function CardComponent({data}) {
             </div>
             <div className='absolute h-[7vh] overflow-hidden top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
                 {first.split('').map((item,index)=> (
-                <span key={index} className={`text-white ${hovered ? "top-[-20%]" : "top-[100%]"} text-[7vh] relative duration-100 delay-[${(index*100)}ms] ease-in-out`}>{item}
+                <span key={index} className={`text-white ${hovered ? "top-[-20%]" : "top-[100%]"} text-[7vh] relative duration-100 ease-in-out`}  >{item}
                 </span>
                 ))}
             </div>
