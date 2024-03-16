@@ -9,7 +9,7 @@ function About() {
         <div className='border-t-[1px] pt-10 mt-20 border-[#a5c043] flex gap-10'>
             <div className='w-1/2'>
                 <h1 className='text-7xl'>Our Approches:</h1>
-                <button onMouseEnter = {()=> setHover(true)} onMouseLeave = {()=> setHover(false)} className='bg-zinc-800 hover:bg-zinc-900 text-white mt-10 rounded-full pl-10 pr-5  flex items-center justify-between uppercase h-[7vh] w-[13vw] group '>Read More
+                <button onMouseEnter = {()=> {setHover(true);console.log(hover)}} onMouseLeave = {()=> {setHover(false);console.log(hover)}} className='bg-zinc-800 hover:bg-zinc-900 text-white mt-10 rounded-full pl-10 pr-5  flex items-center justify-between uppercase h-[7vh] w-[13vw] group '>Read More
                 <div className='w-16 h-16 rounded-full flex items-center justify-center'>
                     <div className='h-2 w-2 bg-white rounded-full group-hover:h-full group-hover:w-full flex items-center justify-center duration-500'><FaArrowUpLong className='text-white text-[0.5vh] group-hover:text-[2vh] group-hover:text-black group-hover:rotate-[45deg] duration-500'/></div>
                 </div>

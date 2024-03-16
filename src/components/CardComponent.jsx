@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {motion} from 'framer-motion'
 function CardComponent({data}) {
     const [first,setFirst] = useState("FYDE");
     const [hovered,setHovered] = useState(false);

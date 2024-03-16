@@ -16,7 +16,6 @@ function Navbar() {
       }
 
       setPrevScrollPos(currentScrollPos);
-      console.log(scrollDirection)
     };
 
     // Add scroll event listener
